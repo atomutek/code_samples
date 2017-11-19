@@ -5,6 +5,9 @@ This repository contains samples of my code.
 - SaLaMi: Solution to a safe, laser, mirror problem. This particular problem was
 given during the ACM-ICPC World Finals 2012 (Problem I: A Safe Bet).
   - Done with a sweeping algorithm and binary tree data structure
+- Bandwidth: Solution to compute the bandwidth between 2 given machines in a
+mobility IoT network.
+  - Done with the Edmonds-Karp algorithm
 
 ## Machine learning
 - Quora duplicate: Predict if a given question is a duplicate of another one.
