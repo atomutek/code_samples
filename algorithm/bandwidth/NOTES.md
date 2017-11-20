@@ -16,3 +16,8 @@ __Solution__
   always the same in both directions
   - Therefore 2 (or X) bi-directional connections between 2 same machines have
   their bandwidths summed.
+
+## Scripts
+- bandwidth.py: My solution to the problem.
+- network_ek.py: Another script was written based on a 3rd party module _networkx_.
+  - The module seems to not handle 2+ bi-directional connections between 2 same machines though.
