@@ -52,8 +52,12 @@ if __name__ == "__main__":
 
                 if graph[machine_a][machine_b] == 0:
                     graph[machine_a][machine_b] = bandwidth
+                else:
+                    graph[machine_a][machine_b] += bandwidth
                 if graph[machine_b][machine_a] == 0:
                     graph[machine_b][machine_a] = bandwidth
+                else:
+                    graph[machine_b][machine_a] += bandwidth
 
             print "Network %d" % network_index
             print "The bandwidth is %d.\n" % g.EdmondsKarp(source, sink)
